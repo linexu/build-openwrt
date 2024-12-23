@@ -11,5 +11,7 @@
 
 sed -i 'i1 src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 
+git clone https://github.com/SAENE/luci-theme-design package/luci/luci-theme-design
+
 # other
 # rm -rf package/utils/{ucode,fbtest}
